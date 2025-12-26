@@ -230,11 +230,16 @@
 
     .footer-area {
         padding: 40px 0 30px;
+        text-align: center;
     }
 
     .footer-area p {
         width: 100%;
         font-size: 14px;
+    }
+
+    .social-links {
+        justify-content: center;
     }
    
 
@@ -281,6 +286,14 @@
 
     .project-thumb {
         height: 240px;
+    }
+
+    .footer-area {
+        text-align:left;
+    }
+
+    .social-links {
+        justify-content: left;
     }
     
 }
