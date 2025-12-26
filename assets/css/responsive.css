@@ -1,0 +1,286 @@
+/* XL Device :1200px. */
+@media (min-width: 1300px) and (max-width: 1449px) {
+    
+
+}
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+
+    
+    
+
+}
+
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+ 
+
+
+
+/* LG Device :992px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .hero-area h1 span {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .similer-btn {
+        font-size: 19px;
+        padding: 14px 28px;
+    }
+
+    .skill-area {
+        padding: 70px 0;
+    }
+
+    .skill-shape {
+        width: 90%;
+        height: 445px;
+    }
+
+    .wordpress-icon {
+        bottom: 18.2%;
+        width: 156px !important;
+        height: 171px !important;
+    }
+
+    .project-area {
+        padding: 50px 0 70px;
+    }
+
+    .footer-area {
+        padding: 60px 0 80px;
+        background-color: #1E142B;
+    }
+    
+}
+
+
+
+
+
+/* SM Small Device :320px. */
+@media only screen and (max-width: 767px) {
+
+    h1 {
+        font-size: 36px;
+        line-height: 140%;
+    }
+
+    .hero-area h1 span {
+        font-size: 36px;
+    }
+
+    .hero-area h1 img {
+        width: 80px;
+        height: 40px;
+        margin: 0 15px;
+    }
+
+    h2{
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .similer-btn {
+        font-size: 19px;
+        padding: 14px 28px;
+    }
+
+    .header-right .nav-menu {
+        display: none;
+        gap: 0 40px;
+    }
+
+    .nav_trigger{
+        display: flex;    
+    }
+
+    .hero-area {
+        padding: 147px 0 35px;
+    }
+
+    .profile-avater {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 45px;
+    }
+
+    .profile-avater .avater-gradient {
+        width: 170px;
+        height: 170px;
+    }
+
+    .hero-area__inner p {
+        width: 100%;
+        margin: 40px 0 45px;
+    }
+
+    .similer-btn {
+        font-size: 14px;
+        padding: 10px 17px;
+    }
+
+    .skill-area {
+        padding: 50px 0;
+    }
+
+    .skill-list {
+        margin-top: 50px;
+    }
+
+    .skill-shape {
+        width: 100%;
+        height: 197px;
+    }
+
+    .skill-area-gradient {
+        height: 20%;
+    }
+
+    .wordpress-icon {
+        bottom: 18.2%;
+        width: 66px !important;
+        height: 81px !important;
+    }
+
+    .project-area {
+        padding: 50px 0 50px;
+    }
+
+    .project-item {
+        max-width: 400px;
+        width: 100%;
+        min-height: fit-content;
+        margin: auto;
+    }
+
+    .project-content h4 {
+        font-size: 15px;
+    }
+
+    .project-thumb {
+        height: 195px;
+    }
+
+    .experience-item__wraper {
+        margin-top: 25px;
+    }
+
+    .experience-area {
+        padding: 50px 0 70px;
+    }
+
+    .experience-title {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .experience-title img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .experience-item span{
+        display: none;
+    }
+
+    .experience-item p {
+        text-align: center;
+    }
+
+    .hidden-learnin__duration{
+        display: inline-flex !important;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .footer-area {
+        padding: 40px 0 30px;
+    }
+
+    .footer-area p {
+        width: 100%;
+        font-size: 14px;
+    }
+   
+
+}
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    h1 {
+        line-height: 170%;
+    }
+
+    .skill-shape {
+        width: 100%;
+        height: 294px;
+    }
+
+    .wordpress-icon {
+        bottom: 18.2%;
+        width: 107px !important;
+        height: 113px !important;
+    }
+
+    .experience-title {
+        display: flex;
+        flex-direction: row;
+        text-align:left;
+    }
+
+    .experience-title img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .experience-item span{
+        display: none;
+    }
+
+    .experience-item p {
+        text-align: left;
+    }
+
+    .project-thumb {
+        height: 240px;
+    }
+    
+}
