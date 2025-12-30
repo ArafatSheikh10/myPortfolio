@@ -53,6 +53,11 @@
         padding: 14px 28px;
     }
 
+    .logo {
+        width: 120px;
+        height: 60px;
+    }
+
     .skill-area {
         padding: 70px 0;
     }
@@ -116,6 +121,11 @@
     .similer-btn {
         font-size: 19px;
         padding: 14px 28px;
+    }
+
+    .logo {
+        width: 100px;
+        height: 50px;
     }
 
     .header-right .nav-menu {

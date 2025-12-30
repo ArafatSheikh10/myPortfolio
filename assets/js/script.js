@@ -1,10 +1,41 @@
 $(document).ready(function() {
 
+
+
+
+    // ==== Preloader Start
+    window.addEventListener("load", function() {
+        const loader = document.querySelector(".preloader");
+        
+        setTimeout(() => {
+            loader.classList.add("fade-out");
+        }, 2500); 
+        });
+    // ==== Preloader End
+
+
+
+
+
+
+
+
+
+
+
+
     // ==== Aos Start
 
     AOS.init();
 
     // ==== Aos End
+
+
+
+
+
+
+
 
     //===== Sticky Menu-Bar Start
 
@@ -24,6 +55,14 @@ $(document).ready(function() {
     
     //===== Sticky Menu-Bar End
 
+
+
+
+
+
+
+
+
     //==== Nav Menu Slider Start
 
         $('.nav_trigger').click(function(){
@@ -35,6 +74,14 @@ $(document).ready(function() {
         })
 
     //==== Nav Menu Slider End
+
+
+
+
+
+
+
+
     
 
     // ==== Section Select Start
@@ -51,6 +98,14 @@ $(document).ready(function() {
         }
     });
     // ==== Section Select End
+
+
+
+
+
+
+
+
 
 
 });
